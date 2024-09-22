@@ -23,7 +23,7 @@ export default function Shop() {
 
   return (
     <div className={style.shopContainer}>
-      <div className="flex md:flex-row flex-col flex-wrap justify-center items-center mx-auto ">
+      <div className="flex flex-wrap justify-center items-center mx-auto ">
         {data.map((product, index) => (
           <div key={index} className='w-1/4 p-2 rounded-md  '>
             <div className=' bg-[#000000] text-white rounded-md '>
