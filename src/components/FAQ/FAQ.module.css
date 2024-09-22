@@ -1,0 +1,31 @@
+.dots{
+    background-image: url('../../../public/dot.png');
+    background-repeat: repeat;
+    background-size: 20px 20px;
+    transform: translate(-50px, 50px);
+    z-index: 0;
+    opacity: 1;
+    filter: invert();
+}
+
+.askUs{
+    font-family: "Amita", serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.questions{
+    font-family: "Amita", serif;
+    font-size: 34px;
+    line-height: 48px;
+}
+.FAQS{
+    font-family: "Amita", serif;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+
+
+  

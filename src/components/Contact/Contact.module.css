@@ -1,0 +1,49 @@
+.title {
+
+    font-family: "Amita", serif;
+    font-size: 36px;
+    line-height: 50px;
+
+
+}
+
+
+.icon:hover .facebook {
+    transform: translateX(0);
+    opacity: 1;
+
+}
+
+.facebook,
+.twitter,
+.youtube,
+.insta,
+.linkdin,
+.pinterest {
+    transform: translateX(-100%);
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+
+.pinterestHolder:hover .pinterest {
+    transform: translateX(0);
+    opacity: 1;
+
+}
+
+.twitterHolder:hover .twitter {
+    transform: translateX(0);
+    opacity: 1;
+
+}
+
+.instagramHolder:hover .insta{
+    transform: translateX(0);
+    opacity: 1;
+}
+.insta {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+   
+    
+}

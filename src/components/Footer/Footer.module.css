@@ -1,0 +1,41 @@
+.title{
+    font-family: "Amita", serif;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+
+.listItem{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+}
+.icon{
+    transition: all 0.1s ease;
+}
+
+.sentence:hover .icon i{
+    background-color: #945d34;
+    color: white;
+    
+
+}
+
+.sentence:hover .icon{
+    transform: scale(1.2);
+}
+
+
+.secondColFirstItem img {
+    transition: all 0.5s ease;
+}
+.secondColFirstItem:hover img {
+    filter: brightness(30%);
+
+}
+
+.holder ul li:hover  {
+    transform: translateX(5px);
+    color: rgba(255, 255, 255, 0.838);
+
+}

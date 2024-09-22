@@ -1,0 +1,37 @@
+.title {
+    font-size: 34px;
+    line-height: 48px;
+    font-family: "Amita", serif;
+}
+.minor{
+    font-size: 18px;
+    line-height: 36px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.number{
+    font-family: "Open Sans", sans-serif;
+    font-size: 90px;
+}
+.desc{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+}
+
+.limitedTime{
+    font-size: 30px;
+    line-height: 42px;
+    font-family: "Amita", serif;
+}
+
+.anotherBtn {
+    transform: translateX(-100%);
+    transition: all 0.7S ease;
+    opacity: 0;
+}
+
+.footer:hover .anotherBtn {
+    transform: translateX(0);
+    opacity: 100%;
+
+}

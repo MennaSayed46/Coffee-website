@@ -1,0 +1,82 @@
+.card:hover img {
+    transform: rotateY(180deg);
+}
+
+
+.card img {
+    transition: transform 0.5s;
+}
+
+@keyframes expandHeight {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.card {
+    overflow: hidden;
+    position: relative;
+}
+
+
+.card p {
+    margin: 0;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+
+.card:hover p {
+    animation: expandHeight 1s ease forwards;
+}
+
+
+.blog{
+    font-size: 34px;
+    line-height: 48px;
+    font-family: "Amita", serif;
+}
+
+.news{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+
+.titleOfGallery{
+    font-family: "Amita", serif;
+    font-size: 22px;
+    line-height: 31px;
+}
+
+
+.icone i {
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: all 0.5s ease;
+}
+
+
+.item:hover {
+    .icone i{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
+
+.item img{
+    transition: all 0.5s ease;
+}
+
+.item:hover img {
+    filter: brightness(50%);
+}

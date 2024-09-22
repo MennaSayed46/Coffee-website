@@ -1,0 +1,88 @@
+.img {
+    background-attachment: scroll;
+}
+
+
+.texts {
+    font-family: "Amita", serif;
+
+}
+
+.firstLine {
+    font-size: 42px;
+    line-height: 70px;
+    animation: expandWidth 1.2s ease forwards;
+    overflow: hidden;
+}
+
+@keyframes expandWidth {
+    from{
+        width: 0;
+      
+        opacity: 0;
+    }
+    to{
+        width: 100%;
+      
+        opacity: 1;
+    }
+    
+    
+}
+
+
+.secondLine {
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 80px;
+ 
+    
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .firstLine {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .secondLine {
+
+        font-size: 37px;
+        line-height: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

@@ -1,0 +1,35 @@
+.title h1{
+    font-family:  "Amita", serif;
+    font-size: 25px;
+    line-height: 20px;
+}
+
+.item div span{
+    font-family: "Amita", serif;
+    font-size: 14px;
+    line-height: 29px;
+   
+}
+
+
+.item{
+    transition: 300ms background-color ease;
+}
+
+.icone:hover i{
+    transform:scale(1.2);
+    transition: transform 0.25s; 
+   
+    
+}
+
+@media screen  and (max-width: 768px) {
+    .ul{
+        background-image: url(../../../public/par1.jpg);
+    }
+    .ul .item{
+        width: 100%;
+        text-align: center;
+    }
+    
+}

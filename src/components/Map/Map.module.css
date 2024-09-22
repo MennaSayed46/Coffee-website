@@ -1,0 +1,31 @@
+.title{
+    font-family: "Amita", serif;
+    font-size: 42px;
+    line-height: 59px;
+}
+.details,.desc,.rightDetails{
+    font-size: 16px;
+    line-height: 32px;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.anotherBtn {
+    transform: translateX(-100%);
+    transition: all 0.7S ease;
+    opacity: 0;
+}
+
+.footer:hover .anotherBtn {
+    transform: translateX(0);
+    opacity: 100%;
+
+}
+
+.cl{
+    font-size: 36px;
+    line-height: 48px;
+    font-family: "Amita", serif;
+    
+}
+

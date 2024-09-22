@@ -1,0 +1,124 @@
+.imgItem {
+    filter: brightness(50%);
+}
+
+.details p {
+    font-family: "Amita", serif;
+    ;
+}
+
+.firstLine {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42px;
+}
+
+
+.secondLine {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.firstItem {
+    transition: all 0.3s ease;
+}
+
+.firstItem:hover {
+
+    transform: rotate(-4deg) scale(1.02);
+
+
+}
+
+.anotherBtn {
+    transform: translateX(-100%);
+    transition: all 0.7S ease;
+    opacity: 0;
+}
+
+.footer:hover .anotherBtn {
+    transform: translateX(0);
+    opacity: 100%;
+
+}
+
+.invitedLine {
+    font-family: "Amita", serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 45px;
+}
+
+.join {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 56px;
+
+}
+
+.join span {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 56px;
+}
+
+.lastLine {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+
+.dots {
+    background-image: url('../../../public/dot.png');
+  
+    background-repeat: repeat;
+  
+    background-size: 20px 20px;
+    
+    transform: translate(-50px, 80px);
+   
+    z-index: 0;
+    opacity: 1;
+ 
+   filter: invert();
+}
+
+
+.offerFirstLine {
+    font-family: "Amita", serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 59px;
+
+
+}
+
+.offerSecondLine {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 400;
+
+}
+
+.titleDetails {
+    font-family: "Amita", serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.secondLineOfferSection {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+
+
+}

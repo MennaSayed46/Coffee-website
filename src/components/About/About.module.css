@@ -1,0 +1,123 @@
+.about {
+    font-family: "Amita", serif;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.desc {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.dots {
+    background-image: url('../../../public/dot.png');
+    background-repeat: repeat;
+    background-size: 20px 20px;
+    transform: translate(-50px, 50px);
+    z-index: 0;
+    opacity: 1;
+    filter: invert();
+}
+
+.dotsSecondImage {
+    background-image: url('../../../public/dot.png');
+    background-repeat: repeat;
+    background-size: 20px 20px;
+    transform: translate(+50px, 50px);
+    z-index: 0;
+    opacity: 1;
+    filter: invert();
+}
+
+.professional {
+    font-family: "Amita", serif;
+    font-size: 34px;
+    line-height: 48px;
+
+}
+
+.number {
+    font-family: "Open Sans", sans-serif;
+    font-size: 90px;
+}
+
+.typeOfCounter {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+}
+
+.name {
+    font-family: "Amita", serif;
+    font-size: 24px;
+    line-height: 34px;
+
+}
+
+.job {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+
+}
+
+.item img {
+    transition: all 0.5s ease;
+}
+
+.item:hover img {
+    filter: brightness(40%);
+}
+
+.item:hover .icons {
+    display: flex;
+}
+
+.facebook,
+.twitter,
+.youtube,
+.insta,
+.linkdin {
+    transform: translateX(-100%);
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.insta {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    
+}
+.instagramHolder:hover .insta{
+    transform: translateX(0);
+    opacity: 1;
+}
+.linkdinHolder:hover .linkdin{
+    transform: translateX(0);
+    opacity: 1;
+}
+
+
+
+
+
+.twitterHolder:hover .twitter {
+    transform: translateX(0);
+    opacity: 1;
+
+}
+
+.youtubeHolder:hover .youtube {
+    transform: translateX(0);
+    opacity: 1;
+
+}
+
+
+
+.icon:hover .facebook {
+    transform: translateX(0);
+    opacity: 1;
+
+
+}
+
