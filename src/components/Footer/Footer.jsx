@@ -49,7 +49,7 @@ export default function Footer() {
                 <div className={`icone flex justify-center items-center ${style.icon}`}>
                   <i className="fa-solid fa-location-dot bg-white  text-[#945d34] p-2 rounded-[50%] mr-2"></i>
                 </div>
-                <p className={`text-white ${style.listItem} text-sm`}>Ta3meer street ,Giza , Egypt </p>
+                <p className={`text-white ${style.listItem} text-sm`}>anonymous street ,Giza , Egypt </p>
 
               </div>
               {/* secondSentence */}
@@ -57,7 +57,7 @@ export default function Footer() {
                 <div className={`icone flex justify-center items-center ${style.icon}`}>
                   <i className="fa-solid fa-phone bg-white  text-[#945d34] p-2 rounded-[50%] mr-2"></i>
                 </div>
-                <p className={`text-white ${style.listItem} text-sm`}>+20 01119121377 </p>
+                <p className={`text-white ${style.listItem} text-sm`}>+20 01152130363 </p>
 
               </div>
               {/* thirdSentence */}
@@ -65,7 +65,7 @@ export default function Footer() {
                 <div className={`icone flex justify-center items-center ${style.icon}`}>
                   <i className="fa-solid fa-envelope bg-white  text-[#945d34] p-2 rounded-[50%] mr-2"></i>
                 </div>
-                <p className={`text-white ${style.listItem} text-sm`}>mennaabdelateef910@gmail.com </p>
+                <p className={`text-white ${style.listItem} text-sm`}>infof910@gmail.com </p>
 
               </div>
               {/* fourthSentence */}
@@ -74,7 +74,7 @@ export default function Footer() {
                   <div className={`icone flex justify-center items-center ${style.icon}`}>
                     <i className="fa-brands fa-github bg-white  text-[#945d34] p-2 rounded-[50%] mr-2"></i>
                   </div>
-                  <p className={`text-white ${style.listItem} text-sm`}>Menna Sayed</p>
+                  <p className={`text-white ${style.listItem} text-sm`}>Younis MA</p>
 
                 </div>
               </Link>
