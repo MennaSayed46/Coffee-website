@@ -57,7 +57,7 @@ export default function Footer() {
                 <div className={`icone flex justify-center items-center ${style.icon}`}>
                   <i className="fa-solid fa-phone bg-white  text-[#945d34] p-2 rounded-[50%] mr-2"></i>
                 </div>
-                <p className={`text-white ${style.listItem} text-sm`}>+20 01152130363 </p>
+                <p className={`text-white ${style.listItem} text-sm`}>+20152200046 </p>
 
               </div>
               {/* thirdSentence */}
