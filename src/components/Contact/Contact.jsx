@@ -27,7 +27,7 @@ export default function Contact() {
             <div className='mt-6'>
               <p className='text-white text-sm my-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
               <p className='text-white my-2'><i className="mr-1 fa-regular fa-envelope text-white p-2 rounded-[50%] hover:scale-110 bg-[#945d34]"></i> infof910@gmail.com</p>
-              <p className='text-white my-2'><i className="mr-1 fa-solid fa-phone text-white p-2 rounded-[50%] hover:scale-110 bg-[#945d34]"></i> +20 01152130363</p>
+              <p className='text-white my-2'><i className="mr-1 fa-solid fa-phone text-white p-2 rounded-[50%] hover:scale-110 bg-[#945d34]"></i> +20152200046</p>
             </div>
 
 
